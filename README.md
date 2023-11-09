@@ -1,5 +1,7 @@
 [WIP] **Flipper Zero CAN FD HS Module Board**
 
+![alt text](https://gitlabs3.serma.com/serma_s3_iec/r_et_d/flipper-zero-can-fd-hs-module/-/blob/main/Picture.png?ref_type=heads)
+
 /!\ All informations are Work In Progress and are subject to modifications without notice /!\
 
 This Gitlab repository contains the development files of the Flipper Zero CAN FD HS Module Board . 
