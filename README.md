@@ -2,9 +2,9 @@
 
 ![Screenshot](Picture.png)
 
-/!\ All informations are Work In Progress and are subject to modifications without notice /!\
+** /!\ All informations are Work In Progress and are subject to modifications without notice /!\ **
 
-This Gitlab repository contains the development files of the Flipper Zero CAN FD HS Module Board . 
+This Gitlab repository contains the development files of the Flipper Zero CAN FD HS Module Board. 
 
 The Flipper Zero CAN FD HS Module Board is a custom electronic board designed by SERMA Safety & Security to enable a Flipper Zero to 
 use CAN FD / HS protocol and thus communicate with ECU's or others devices. 
@@ -25,5 +25,8 @@ To offer an easy usage of the FP 0 CAN FD HS Module, the board embeds a Phoenix 
 * 1x Optionnal 2.54mm
 For application that requires strong mechanical constraints, CAN signals can be directly solder onto available through holes. 
 
-* Power ON Indicator
-TO DO
+* Power ON Indicators
+To indicate safe operation of the board. 
+
+* 1x 120 Ohm user controlled resistor
+
