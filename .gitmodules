@@ -1,0 +1,43 @@
+[submodule "lib/mlib"]
+	path = Xtreme-Fimware/lib/mlib
+	url = https://github.com/P-p-H-d/mlib.git
+[submodule "lib/littlefs"]
+	path = Xtreme-Fimware/lib/littlefs
+	url = https://github.com/littlefs-project/littlefs.git
+[submodule "lib/nanopb"]
+	path = Xtreme-Fimware/lib/nanopb
+	url = https://github.com/nanopb/nanopb.git
+[submodule "assets/protobuf"]
+	path = Xtreme-Fimware/assets/protobuf
+	url = https://github.com/flipperdevices/flipperzero-protobuf.git
+	shallow = false
+[submodule "lib/libusb_stm32"]
+	path = Xtreme-Fimware/lib/libusb_stm32
+	url = https://github.com/flipperdevices/libusb_stm32.git
+[submodule "lib/FreeRTOS-Kernel"]
+	path = Xtreme-Fimware/lib/FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "lib/microtar"]
+	path = Xtreme-Fimware/lib/microtar
+	url = https://github.com/amachronic/microtar.git
+[submodule "lib/mbedtls"]
+	path = Xtreme-Fimware/lib/mbedtls
+	url = https://github.com/Mbed-TLS/mbedtls.git
+[submodule "lib/cxxheaderparser"]
+	path = Xtreme-Fimware/lib/cxxheaderparser
+	url = https://github.com/robotpy/cxxheaderparser.git
+[submodule "lib/heatshrink"]
+	path = Xtreme-Fimware/lib/heatshrink
+	url = https://github.com/flipperdevices/heatshrink.git
+[submodule "lib/st_cmsis_device_wb"]
+	path = Xtreme-Fimware/lib/stm32wb_cmsis
+	url = https://github.com/STMicroelectronics/cmsis_device_wb
+[submodule "lib/stm32wbxx_hal_driver"]
+	path = Xtreme-Fimware/lib/stm32wb_hal
+	url = https://github.com/STMicroelectronics/stm32wbxx_hal_driver
+[submodule "lib/stm32wb_copro"]
+	path = Xtreme-Fimware/lib/stm32wb_copro
+	url = https://github.com/flipperdevices/stm32wb_copro.git
+[submodule "applications/external"]
+	path = Xtreme-Fimware/applications/external
+	url = https://github.com/Flipper-XFW/Xtreme-Apps.git

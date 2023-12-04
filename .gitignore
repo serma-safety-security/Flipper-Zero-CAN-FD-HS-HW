@@ -1,0 +1,70 @@
+*~
+*.swp
+*.swo
+*.gdb_history
+*.old
+
+
+# LSP
+Xtreme-Firmware/.cache
+Xtreme-Firmware/compile_commands.json
+
+# JetBrains IDEs
+.idea/
+
+# Python VirtEnvironments
+Xtreme-Firmware/.env
+Xtreme-Firmware/.venv
+Xtreme-Firmware/env/
+Xtreme-Firmware/venv/
+
+# Python Byte-compiled / optimized files
+Xtreme-Firmware/__pycache__/
+Xtreme-Firmware/*.py[cod]
+Xtreme-Firmware/*$py.class
+Xtreme-Firmware/*.pickle
+
+Xtreme-Firmware/.obj/
+bindings/
+Xtreme-Firmware/.DS_Store
+Xtreme-Firmware/.mxproject
+Xtreme-Firmware/Brewfile.lock.json
+
+# Kate
+Xtreme-Firmware/.kateproject
+Xtreme-Firmware/.kateconfig
+
+# kde
+Xtreme-Firmware/.directory
+Xtreme-Firmware/null.d
+
+# SCons
+Xtreme-Firmware/.sconsign.dblite
+
+
+# Visual Studio Code
+Xtreme-Firmware/.vscode
+
+# Visual Studio
+Xtreme-Firmware/.vs
+
+# bundle output
+Xtreme-Firmware/dist
+
+# SCons build dir
+Xtreme-Firmware/build
+
+# Toolchain
+Xtreme-Firmware/toolchain
+
+# openocd output file
+openocd.log
+
+# PVS Studio temporary files
+Xtreme-Firmware/.PVS-Studio/
+Xtreme-Firmware/PVS-Studio.log
+Xtreme-Firmware/*.PVS-Studio.*
+
+Xtreme-Firmware/.gdbinit
+
+Xtreme-Firmware/fbt_options_local.py

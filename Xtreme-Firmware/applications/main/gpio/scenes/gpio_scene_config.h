@@ -1,0 +1,8 @@
+ADD_SCENE(gpio, start, Start)
+ADD_SCENE(gpio, test, Test)
+ADD_SCENE(gpio, usb_uart, UsbUart)
+ADD_SCENE(gpio, usb_uart_cfg, UsbUartCfg)
+ADD_SCENE(gpio, usb_uart_close_rpc, UsbUartCloseRpc)
+ADD_SCENE(gpio, exit_confirm, ExitConfirm)
+ADD_SCENE(gpio, i2c_scanner, I2CScanner)
+ADD_SCENE(gpio, i2c_sfp, I2CSfp)
