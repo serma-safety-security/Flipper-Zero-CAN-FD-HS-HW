@@ -2,7 +2,7 @@
 # Flipper Zero CAN HS/FD Adapter
 
 <div align="center">
-  <img src="/Pictures/Banner.png" alt="Wiring diagram">
+  <img src="/Pictures/Banner.png" alt="Banner">
 </div>
 
 
@@ -18,7 +18,7 @@ This project aims to develop a CAN (Controller Area Network) adapter for the Fli
 
 * Firmware features:
 	- [x] CAN HS Communication
-	- [] CAN FD Communication (partially)
+	- [ ] CAN FD Communication (partially)
     - [x] Device detection and configuration
 	- [x] Error handling and debugging tools
 
@@ -41,7 +41,8 @@ This project aims to develop a CAN (Controller Area Network) adapter for the Fli
 * Download and install the CAN adapter application
 * Launch the application and connect your Flipper Zero into your PC
 * Find the appropriate COM port
-* Setup the Flipper USB-CAN as a SocketCAN interface
+* Setup the Flipper USB-CAN as a SocketCAN interface :
+
 ```sh
 sudo modprobe can$ sudo modprobe can-raw$ sudo modprobe slcan
 sudo slcan_attach -f -s6 -o “<COM Port> (e.g. :/dev/ttyACM0)”
@@ -51,8 +52,11 @@ sudo ifconfig can0 up
 
 **Connection:**
 
-![Wiring diagram](/Pictures/Connection.png)]
-**Branches:**
+<div align="center">
+  <img src="/Pictures/Connection.png" alt="Wiring diagram">
+</div>
+
+## Branches:
 
 * `main`: The main branch, where stable code is kept. This is the default branch that new users will see when they clone the repository.
 * `dev`: The development branch, where experimental or feature-in-progress code lives. This allows for concurrent development and testing without affecting the stability of the main branch.
