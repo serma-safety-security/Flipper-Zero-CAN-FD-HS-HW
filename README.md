@@ -17,10 +17,10 @@ This project aims to develop a CAN (Controller Area Network) adapter for the Fli
 * The application firmware must runs on the Flipper Zero, which communicates with the CAN adapter through its SPI interface.
 
 * Firmware features:
-	[x] CAN HS Communication
-	[] CAN FD Communication (partially)
-    [x] Device detection and configuration
-	[x] Error handling and debugging tools
+	- [x] CAN HS Communication
+	- [] CAN FD Communication (partially)
+    - [x] Device detection and configuration
+	- [x] Error handling and debugging tools
 
 * The CAN adapter is fully compatible with Linux SocketCAN enabling the usage of can-utils tooling for receiving and sending CAN messages. 
 
