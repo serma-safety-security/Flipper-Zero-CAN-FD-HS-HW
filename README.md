@@ -1,32 +1,80 @@
-[WIP] **Flipper Zero CAN FD HS Module Board**
 
-![Screenshot](Picture.png)
+# Flipper Zero CAN HS/FD Adapter
 
-** /!\ All informations are Work In Progress and are subject to modifications without notice /!\ **
+<div align="center">
+  <img src="/Pictures/Banner.png" alt="Wiring diagram">
+</div>
 
-This Gitlab repository contains the development files of the Flipper Zero CAN FD HS Module Board. 
 
-The Flipper Zero CAN FD HS Module Board is a custom electronic board designed by SERMA Safety & Security to enable a Flipper Zero to 
-use CAN FD / HS protocol and thus communicate with ECU's or others devices. 
+## Description: 
 
-The  FP 0 CAN FD HS Module embeds the following features : 
+This project aims to develop a CAN (Controller Area Network) adapter for the Flipper Zero, allowing users to connect devices with a CAN interfaces in particular automotive ECU's.
 
-* 1x CAN Transreceiver
-The CAN function is performed using a Microchip MCP2518FD which supports both CAN 2.0B(HS) and CAN FD.
-The device is able to communicate at a data rate of up 8 Mbits/s on CAN FD 
 
-* 1x CAN Isolator
-The FP 0 CAN FD HS Module of an isolation of the CAN network to protect humans against electric shock and prevent sensible electronics to be damage by high voltage.
-This function is performed thanks to the usage of the NXP TJA1052IT which use a proprietary solution offering a communication of 5Mbits/s on CAN FD. 
+## Firmware Development:
 
-* 1x Screwless header block
-To offer an easy usage of the FP 0 CAN FD HS Module, the board embeds a Phoenix Contact PTSM header blocks which allows quick and reliable connection of cables.
+* The CAN adapter application firmware is developed in C++ using the Flipper Zero's Xtreme-Firmware SDK.
+* The application firmware must runs on the Flipper Zero, which communicates with the CAN adapter through its SPI interface.
 
-* 1x Optionnal 2.54mm
-For application that requires strong mechanical constraints, CAN signals can be directly solder onto available through holes. 
+* Firmware features:
+	[x] CAN HS Communication
+	[] CAN FD Communication (partially)
+    [x] Device detection and configuration
+	[x] Error handling and debugging tools
 
-* Power ON Indicators
-To indicate safe operation of the board. 
+* The CAN adapter is fully compatible with Linux SocketCAN enabling the usage of can-utils tooling for receiving and sending CAN messages. 
 
-* 1x 120 Ohm user controlled resistor
+[See Software development folder for more information](https://example.com/redirect) 
+
+## Hardware Development:
+
+* The CAN adapter board is designed using KiCad 7.x
+* The PCB layout includes:
+	+ Microchip MCP2518FD CAN transceiver chip
+	+ TJ1051i CAN driver with galvanic isolation up to 4kV 
+	+ Screwless CAN connector for easy plug-in
+	+ TX/RX CAN activity LEDs for easy debugging
+
+[See Hardware development folder for more information](https://example.com/redirect)
+
+## Getting Started:
+* Download and install the CAN adapter application
+* Launch the application and connect your Flipper Zero into your PC
+* Find the appropriate COM port
+* Setup the Flipper USB-CAN as a SocketCAN interface
+```sh
+sudo modprobe can$ sudo modprobe can-raw$ sudo modprobe slcan
+sudo slcan_attach -f -s6 -o “<COM Port> (e.g. :/dev/ttyACM0)”
+sudo slcand“<COM Port> (e.g :/dev/ttyACM0)” can0
+sudo ifconfig can0 up
+```
+
+**Connection:**
+
+![Wiring diagram](/Pictures/Connection.png)]
+**Branches:**
+
+* `main`: The main branch, where stable code is kept. This is the default branch that new users will see when they clone the repository.
+* `dev`: The development branch, where experimental or feature-in-progress code lives. This allows for concurrent development and testing without affecting the stability of the main branch.
+
+## Contributing:
+
+* Before contributing, please create a new issue to propose your changes.
+* Fork this repository to create a copy of the original.
+* Create a new branch from `dev` (e.g., `feature/my-new-firmware`) for your feature or fix.
+* Make your changes and commit them with descriptive commit messages.
+* Push your branch to your forked repository.
+* Open a pull request against the original `dev` branch.
+
+## Testing:
+
+TODO 
+
+## License:
+
+This project is licensed under the TODO. See `LICENSE` file for details.
+
+# Acknowledgments:
+
+* Special thanks to Kévin for the SW dev and Morike for the HW dev !  
 
