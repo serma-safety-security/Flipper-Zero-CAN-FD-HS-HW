@@ -35,7 +35,7 @@ This project aims to develop a CAN (Controller Area Network) adapter for the Fli
 	+ Screwless CAN connector for easy plug-in
 	+ TX/RX CAN activity LEDs for easy debugging
 
-[See Hardware development folder for more information](https://example.com/redirect)
+[See Hardware development folder for more information](https://gitlabs3.serma.com/serma_s3_iec/r_et_d/flipper-zero-can-fd-hs-module/-/tree/main/Hardware?ref_type=heads)
 
 ## Getting Started:
 * Download and install the CAN adapter application
