@@ -1,7 +1,7 @@
 # Flipper Zero CAN FD HS 
 
 <div align="center">
-  <img src="/Pictures/HW_banner.png" alt="">
+  <img src="../Pictures/HW_banner.png" alt="">
 </div>
 
 ## Table of Contents
