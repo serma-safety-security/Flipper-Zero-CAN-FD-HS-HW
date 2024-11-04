@@ -70,10 +70,6 @@ sudo ifconfig can0 up
 * Push your branch to your forked repository.
 * Open a pull request against the original `dev` branch.
 
-## Testing:
-
-TODO 
-
 ## License:
 
 This project is licensed under the TODO. See `LICENSE` file for details.
