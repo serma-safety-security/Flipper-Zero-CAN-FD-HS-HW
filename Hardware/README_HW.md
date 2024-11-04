@@ -1,9 +1,7 @@
 # Flipper Zero CAN FD HS 
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-
 <div align="center">
-  <img src="HW_banner.png" alt="">
+  <img src="/Pictures/HW_banner.png" alt="">
 </div>
 
 ## Table of Contents
@@ -47,7 +45,7 @@ This repository contains the hardware design files, including schematics, PCB la
 ## Board Pinout
 
 <div align="center">
-  <img src="Pinout.png" alt="Pinout"  style="width: 700px;">
+  <img src="/Pictures/Connection_wo_Flipper.png" alt="Pinout"  style="width: 700px;">
 </div>
 
 ## Directory Structure
