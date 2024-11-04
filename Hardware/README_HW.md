@@ -45,7 +45,7 @@ This repository contains the hardware design files, including schematics, PCB la
 ## Board Pinout
 
 <div align="center">
-  <img src="/Pictures/Connection_wo_Flipper.png" alt="Pinout"  style="width: 700px;">
+  <img src="/Pictures/Connection_wo_Flipper.png" alt="Pinout"  style="width: 600px;">
 </div>
 
 ## Directory Structure
@@ -79,7 +79,7 @@ git clone https://github.com/yourusername/electronic-board-project.git
 - **PCB Layout:**   
 
 <div align="center">
-  <img src="PCB_Stackup.png" alt="PCB stackup"  style="width: 700px;">
+  <img src="/Pictures/PCB_Stackup.png" alt="PCB stackup"  style="width: 700px;">
 </div>
 
 - **Gerber Files:** These files are located in `/hardware/gerbers/` and are used for manufacturing the board.
