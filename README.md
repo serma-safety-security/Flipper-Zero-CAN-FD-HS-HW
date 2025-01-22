@@ -24,7 +24,7 @@ This project aims to develop a CAN (Controller Area Network) adapter for the Fli
 
 * The CAN adapter is fully compatible with Linux SocketCAN enabling the usage of can-utils tooling for receiving and sending CAN messages. 
 
-[See Software development folder for more information](https://example.com/redirect) 
+[See Software development folder for more information](https://github.com/serma-safety-security/Flipper-Zero-CAN-FD-HS-SW) 
 
 ## Hardware Development:
 
@@ -35,7 +35,7 @@ This project aims to develop a CAN (Controller Area Network) adapter for the Fli
 	+ Screwless CAN connector for easy plug-in
 	+ TX/RX CAN activity LEDs for easy debugging
 
-[See Hardware development folder for more information](https://gitlabs3.serma.com/serma_s3_iec/r_et_d/flipper-zero-can-fd-hs-module/-/tree/main/Hardware?ref_type=heads)
+[See Hardware development folder for more information](https://github.com/serma-safety-security/Flipper-Zero-CAN-FD-HS-HW/tree/main/Hardware)
 
 ## Getting Started:
 * Download and install the CAN adapter application
@@ -72,7 +72,7 @@ sudo ifconfig can0 up
 
 ## License:
 
-This project is licensed under the TODO. See `LICENSE` file for details.
+This project is licensed under the MIT See `LICENSE` file for details.
 
 # Acknowledgments:
 
